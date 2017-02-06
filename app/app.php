@@ -34,7 +34,7 @@
           }
           $returned_string = $returned_string . "</ul></li><li><strong>Cost: </strong>$" . $animal->get("cost") . "</li>";
       }
-      $returned_string = $returned_string . "</ul></body></html>";
+      $returned_string = $returned_string . "</ul><a href='/add'><button>Legally sell animals here.</button></a></body></html>";
 
       return $returned_string;
     });
